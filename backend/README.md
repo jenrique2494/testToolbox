@@ -10,40 +10,48 @@ Este es el backend del proyecto Test Toolbox. Está construido con Node.js y Exp
 ## Configuración
 
 1. **Instalar dependencias:**
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 2. **Configurar variables de entorno:**
    Crea un archivo \`.env\` en la raíz del backend con las siguientes variables:
-   \`\`\`env
+
+   ```env
    API_KEY=aSuperSecretKey
    PORT=3000
-   \`\`\`
+   ```
 
 ## Ejecución
 
 ### Localmente
 
 - Iniciar el servidor:
-  \`\`\`bash
+
+  ```bash
   npm start
-  \`\`\`
+  ```
+
 - Ejecutar pruebas:
-  \`\`\`bash
+
+  ```bash
   npm test
-  \`\`\`
+  ```
 
 ### Con Docker
 
 - Construir la imagen:
-  \`\`\`bash
+
+  ```bash
   docker build -t backend .
-  \`\`\`
+  ```
+
 - Ejecutar el contenedor:
-  \`\`\`bash
+
+  ```bash
   docker run -p 3000:3000 backend
-  \`\`\`
+  ```
 
 ## Endpoints
 

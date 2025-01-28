@@ -10,39 +10,47 @@ Este es el frontend del proyecto Test Toolbox. Está construido con React y Boot
 ## Configuración
 
 1. **Instalar dependencias:**
-   \`\`\`bash
+
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 2. **Configurar variables de entorno:**
    Crea un archivo \`.env\` en la raíz del frontend con las siguientes variables:
-   \`\`\`env
+
+   ```env
    REACT_APP_API_URL=<http:/>/localhost:3000>
-   \`\`\`
+   ```
 
 ## Ejecución
 
 ### Localmente
 
 - Iniciar la aplicación:
-  \`\`\`bash
+
+  ```bash
   npm start
-  \`\`\`
+  ```
+
 - Ejecutar pruebas:
-  \`\`\`bash
+
+  ```bash
   npm test
-  \`\`\`
+  ```
 
 ### Con Docker
 
 - Construir la imagen:
-  \`\`\`bash
+
+  ```bash
   docker build -t frontend .
-  \`\`\`
+  ```
+
 - Ejecutar el contenedor:
-  \`\`\`bash
+
+  ```bash
   docker run -p 3001:3000 frontend
-  \`\`\`
+  ```
 
 ## Características
 

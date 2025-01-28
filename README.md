@@ -16,14 +16,18 @@ Este proyecto es una aplicación Full Stack que consta de un backend en Node.js 
 ## Configuración y ejecución
 
 1. **Clonar el repositorio:**
-   \`\`\`bash
+
+   ```bash
    git clone <https://github.com/jenrique2494/testToolbox.git>
    cd testToolbox
-   \`\`\`
+   ```
+
 2. **Construir y levantar los servicios con Docker Compose:**
-   \`\`\`bash
+
+   ```bash
    docker-compose up --build
-   \`\`\`
+   ```
+
 3. **Acceder a los servicios:**
 
    Backend: <http://localhost:3000>
