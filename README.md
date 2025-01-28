@@ -18,7 +18,7 @@ Este proyecto es una aplicación Full Stack que consta de un backend en Node.js 
 1. **Clonar el repositorio:**
 
    ```bash
-   git clone <https://github.com/jenrique2494/testToolbox.git>
+   git clone https://github.com/jenrique2494/testToolbox.git
    cd testToolbox
    ```
 

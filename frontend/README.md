@@ -19,7 +19,7 @@ Este es el frontend del proyecto Test Toolbox. Está construido con React y Boot
    Crea un archivo \`.env\` en la raíz del frontend con las siguientes variables:
 
    ```env
-   REACT_APP_API_URL=<http:/>/localhost:3000>
+   REACT_APP_API_URL=http://localhost:3000>
    ```
 
 ## Ejecución
