@@ -10,7 +10,6 @@ async function getFilesData(req, res) {
     
     if (fileName) {
       filesToProcess = filesToProcess.filter(({file}) => file === fileName);
-      console.log('filesToProcess',filesToProcess)
     }
     res.json(filesToProcess);
   } catch (error) {
